@@ -1,0 +1,84 @@
+# ==============================
+# Apache Airflow
+# ==============================
+
+# Airflow metadata database
+airflow.db
+airflow.db-journal
+
+# Airflow logs
+logs/
+
+# Airflow configuration
+airflow.cfg
+
+# Airflow local environment
+airflow_local_settings.py
+
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Environment variables & secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# IDE / Editors
+# ==============================
+
+.vscode/
+.idea/
+
+# ==============================
+# OS files
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# Test / Coverage
+# ==============================
+
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# ==============================
+# Build / Distribution
+# ==============================
+
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.tmp
+*.temp
+*.swp
+*.swo
